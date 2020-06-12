@@ -22,8 +22,8 @@ if @@all.any?
   @@all.each do |artist|
     return artist if artist.name == artist_name
   end
-
-end
+else
+  @new_artist = Artist.new(artist_name)
 end
 
 
