@@ -6,8 +6,8 @@ def initialize(path)
 
 end
 
-def files
-
+def files(importer)
+  @file = new
 end
 
 end
