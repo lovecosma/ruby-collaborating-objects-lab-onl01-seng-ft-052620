@@ -4,7 +4,7 @@ attr_accessor :path, :files
 @@files = []
 def initialize(path)
   @path = path
-  Dir[@path]
+  @array_of_MP3s = Dir[@path]
   @@files << self
 end
 
