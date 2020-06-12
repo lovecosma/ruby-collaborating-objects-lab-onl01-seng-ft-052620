@@ -24,6 +24,8 @@ if @@all.any?
   end
 else
   @new_artist = Artist.new(artist_name)
+  @@all << @new_artist
+  @new_artist
 end
 
 
