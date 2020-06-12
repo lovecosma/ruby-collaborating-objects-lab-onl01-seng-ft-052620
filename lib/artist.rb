@@ -27,10 +27,10 @@ else
   @@all << @new_artist
   @new_artist
 end
-end 
+end
 
 def print_songs
   self.songs
-end 
+end
 
 end
