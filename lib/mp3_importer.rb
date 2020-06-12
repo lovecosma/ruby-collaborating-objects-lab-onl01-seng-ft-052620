@@ -3,7 +3,7 @@ attr_accessor :path, :files
 @@files
 def initialize(path)
   @path = path
-  @@files << pathx
+  @@files << path
 end
 
 def files
