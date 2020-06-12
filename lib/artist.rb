@@ -23,7 +23,7 @@ if @@all.any?
     return artist if artist.name == artist_name
   end
 
-end 
+end
 end
 
 
