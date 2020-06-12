@@ -6,8 +6,8 @@ def initialize(path)
 
 end
 
-def files(importer)
-  @new_importer = MP3Importer.new(importer)
+def files
+  @@all
 end
 
 end
